@@ -8,8 +8,8 @@
 >   - Método beber deve diminuir a porcentagem da sanidade em 25,0% idenpendente das diferença dos organismos, entretando, se o organismo for maléfico ou brilhante deve tirar toda a porcentagem de vida.
 >
 >   - Enlouquecer deve diminuir a porcentagem da sanidade inteira, aumentar o peso, diminuir porcentagem de vida aleatóriamente, sortear o genero e aumentar o peso aleatoriamente.
->     ```
->     javascript  const sanidade = peso + random * altura / 100
+>     ``` javascript
+>     const sanidade = peso + random * altura / 100
 >     ```
 
 
