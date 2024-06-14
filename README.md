@@ -15,6 +15,7 @@
 >     ```
 >
 >   - Estudar a importancia mostra e retornar todas as importancias do organismo. 
+>
 
 <br> <br>
 
@@ -27,6 +28,7 @@
 >   ``` javascript
 >   dica.forEach(metodo => metodo = resposta.pensada);
 >   ``` 
+>
 
 <br> <br>
 
@@ -41,6 +43,7 @@
 >   - Método infectar deve tirar 30% de vitalidade do organismo infectado, transformar o maleficio e reserva carboidrato em verdadeiro, aumentar a vitalidade do fungo em 10% e fazer o fungo brilhar;
 >
 >   - Método brilhar deve transformar a bioluminescencia em true e mostrar uma mensagem de "brilhando..".
+>
 
 <br> <br>
 
@@ -48,7 +51,7 @@
 >   - Método dar fruto tira fruto(s) da planta, o número de frutos deve ser uma número aleatório de 3 até o número indicado no parâmetro.
 >  
 >   - Enquanto o método tira fruto(s) da planta, também deve ser um número aleatório de 0 até o valor colocado no parâmetro.
-
+>
 
 // programação web com java
 // estrutura de dados
