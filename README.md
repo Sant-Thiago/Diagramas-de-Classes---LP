@@ -25,7 +25,7 @@
 >
 >   - Método aumentar vitalidade deve aumentar a vitalidade do organismo com base no número indicado no parâmetro. Enquanto o método de diminuir vitalidade o contrário;
 >   ``` javascript
->   dica.forEach(metodo => metodo = resposta.pensada);
+>   dica.forEach(metodo => metodo.isCorreto(resposta.isPensada));
 >   ``` 
 
 <br> <br>
