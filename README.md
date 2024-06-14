@@ -12,9 +12,9 @@
 >   - Enlouquecer deve diminuir a porcentagem da sanidade inteira, aumentar o peso, diminuir porcentagem de vida aleatóriamente, sortear o genero e aumentar o peso aleatoriamente.
 >
 >   - Estudar a importancia mostra e retornar todas as importancias do organismo.
->     ``` javascript
->     const vitalidade = peso + random * altura / 100
->     ``` 
+>   ``` javascript
+>   const vitalidade = peso + random * altura / 100
+>   ``` 
 
 <br> <br>
 
