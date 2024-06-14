@@ -1,5 +1,6 @@
 ## Diagramas-de-Classes---LP
-
+\
+\
 > ### Classe SerVivo
 >   - Método comer deve aumentar a porcentagem de vida. Tenha como base que a porcetagem de vida é igual ao peso mais um número aleatório vezes altura dividido por cem, se a porcentagem de vida for maior que 100, deve-se aumentar a sanidade com os pontos restantes.
 >     
@@ -14,7 +15,7 @@
 >
 >   - Estudar a importancia mostra e retornar todas as importancias do organismo. 
 
-
+\
 > ### Classe Organismo
 >   - Método nascer tem que dar 100% de vida.
 >  
