@@ -10,11 +10,11 @@
 >   - Método beber deve diminuir a porcentagem da sanidade em 25,0% idenpendente das diferença dos organismos, entretando, se o organismo for maléfico ou brilhante deve tirar toda a porcentagem de vida.
 >
 >   - Enlouquecer deve diminuir a porcentagem da sanidade inteira, aumentar o peso, diminuir porcentagem de vida aleatóriamente, sortear o genero e aumentar o peso aleatoriamente.
+>
+>   - Estudar a importancia mostra e retornar todas as importancias do organismo.
 >     ``` javascript
 >     const vitalidade = peso + random * altura / 100
->     ```
->
->   - Estudar a importancia mostra e retornar todas as importancias do organismo. 
+>     ``` 
 
 <br> <br>
 
@@ -34,13 +34,13 @@
 >   - Método decompor deve tirar a vitalidade de outros Organismos, deve-se tirar a porcentagem vital com porcentagens aleátorias a cada 2 segundos por 5 vezes.
 >  
 >   - Método fazer simbiose do organismo aumenta sua vitalidade e ao mesmo tempo tirar a mesma quantidade de porcetagem vital do organismo parasitado.
->   ``` javascript
->   while(metodoAleatorizar.exist) { showMessage("Chance de dar certo:: {100%}") }
->   ```
 >
 >   - Método infectar deve tirar 30% de vitalidade do organismo infectado, transformar o maleficio e reserva carboidrato em verdadeiro, aumentar a vitalidade do fungo em 10% e fazer o fungo brilhar;
 >
 >   - Método brilhar deve transformar a bioluminescencia em true e mostrar uma mensagem de "brilhando..".
+>   ``` javascript
+>   while(metodoAleatorizar.exist) { showMessage("Chance de dar certo:: {100%}") }
+>   ```
 
 <br> <br>
 
