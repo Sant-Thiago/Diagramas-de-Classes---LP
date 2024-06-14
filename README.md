@@ -9,10 +9,37 @@
 >
 >   - Enlouquecer deve diminuir a porcentagem da sanidade inteira, aumentar o peso, diminuir porcentagem de vida aleatóriamente, sortear o genero e aumentar o peso aleatoriamente.
 >     ``` javascript
->     const sanidade = peso + random * altura / 100
+>     const vitalidade = peso + random * altura / 100
 >     ```
+>
+>   - Estudar a importancia mostra e retornar todas as importancias do organismo. 
 
+> ### Classe Organismo
+>   - Método nascer tem que dar 100% de vida.
+>  
+>   - Método morrer tem que zerar a vida mas acrecentar uma porcentagem aleatório de 0 a 10.
+>
+>   - Método aumentar vitalidade deve aumentar a vitalidade do organismo com base no número indicado no parâmetro. Enquanto o método de diminuir vitalidade o contrário;
+>   ``` javascript
+>   dica.forEach(metodo => metodo = resposta.pensada);
+>   ``` 
 
+> ### Classe Fungo
+>   - Método decompor deve tirar a vitalidade de outros Organismos, deve-se tirar a porcentagem vital com porcentagens aleátorias a cada 2 segundos por 5 vezes.
+>  
+>   - Método fazer simbiose do organismo aumenta sua vitalidade e ao mesmo tempo tirar a mesma quantidade de porcetagem vital do organismo parasitado.
+>   ``` javascript
+>   while(metodoAlearorizar.exist) { showMessage("Chance de dar certo:: {100%}") }
+>   ```
+>
+>   - Método infectar deve tirar 30% de vitalidade do organismo infectado, transformar o maleficio e reserva carboidrato em verdadeiro, aumentar a vitalidade do fungo em 10% e fazer o fungo brilhar;
+>
+>   - Método brilhar deve transformar a bioluminescencia em true e mostrar uma mensagem de "brilhando..".
+
+> ### Classe Planta
+>   - Método dar fruto tira fruto(s) da planta, o número de frutos deve ser uma número aleatório de 3 até o número indicado no parâmetro.
+>  
+>   - Enquanto o método tira fruto(s) da planta, também deve ser um número aleatório de 0 até o valor colocado no parâmetro.
 
 // programação web com java
 // estrutura de dados
