@@ -38,6 +38,14 @@
 >   - Método infectar deve tirar 30% de vitalidade do organismo infectado, transformar o maleficio e reserva carboidrato em verdadeiro, aumentar a vitalidade do fungo em 10% e fazer o fungo brilhar;
 >
 >   - Método brilhar deve transformar a bioluminescencia em true e mostrar uma mensagem de "brilhando..".
+>
+>   - Deve-se também ter a capacidade de tirar toda a vida do ser vivo, quando a método contaminar() da interface for chamada.
+>
+>   - Método alimentar da interface deve aumentar a porcentagem de vida em 10% e o peso em 3kg caso não seja maléfico, se não, tire a 99% da porcentagem de vida do ser vivo e zere sua sanidade.
+>
+>   - Método curar se não for maléfico aumenta a altura em 3cm, atribui à porcentagem de vida 99% e sanidade uma porcentagem aleatória, caso o fungo for maléfico, diminua o peso em um número aleatório, tira uma porcentagem aleatória da porcentagem da vida e atribui à sanidade 6.659%.
+>
+>   - Alucinar deixa a sanidade do ser vivo em 2% a 10%, aumenta o peso em 3kg e muda o nome.
 >   ``` javascript
 >   while(metodoAleatorizar.exist) { showMessage("Chance de dar certo:: {100%}") }
 >   ```
@@ -45,9 +53,26 @@
 <br> <br>
 
 > ### Classe Planta
->   - Método dar fruto tira fruto(s) da planta, o número de frutos deve ser uma número aleatório de 3 até o número indicado no parâmetro.
+> # darFruto
+>   - Método deve tirar fruto(s) da planta, o número de frutos deve ser uma número aleatório de 3 até o número indicado no parâmetro.
 >  
 >   - Enquanto o método tira fruto(s) da planta, também deve ser um número aleatório de 0 até o valor colocado no parâmetro.
+>
+>   - 
+
+
+
+>   - Deve-se também ter a capacidade de tirar toda a vida do ser vivo, quando a método contaminar() da interface for chamada.
+>
+>   - Método alimentar da interface deve aumentar a porcentagem de vida em 10% e o peso em 3kg caso não seja maléfico, se não, tire a 99% da porcentagem de vida do ser vivo e zere sua sanidade.
+>
+>   - Método curar se não for maléfico aumenta a altura em 3cm, atribui à porcentagem de vida 99% e sanidade uma porcentagem aleatória, caso o fungo for maléfico, diminua o peso em um número aleatório, tira uma porcentagem aleatória da porcentagem da vida e atribui à sanidade 6.659%.
+>
+>   - Alucinar deixa a sanidade do ser vivo em 2% a 10%, aumenta o peso em 3kg e muda o nome.
+
+
+mata = contaminar
+
 
 // programação web com java
 // estrutura de dados
