@@ -57,6 +57,9 @@
 >
 > #### alucinar()
 >   - Alucinar deixa a sanidade do ser vivo em 2% a 10%, aumenta o peso em 3kg e muda o nome.
+>
+> ##### atribuirImportancia(IMPORTANCIA) 
+>   - Esse método adiciona importância para a lista de importância.
 >   ``` javascript
 >   while(metodoAleatorizar.exist) { showMessage("Chance de dar certo:: {100%}") }
 >   ```
@@ -64,17 +67,18 @@
 <br> <br>
 
 > ### Classe Planta
-> 
 > ##### darFruto(Integer)
 >   - Método deve tirar fruto(s) da planta, o número de frutos deve ser uma número aleatório de 3 até o número indicado no parâmetro.
 >
 > ##### tirarFruto(Integer) 
 >   - O método tira fruto(s) da planta, também deve ser um número aleatório de 0 até o valor colocado no parâmetro.
->
->   - 
+> 
+> ##### atribuirImportancia(IMPORTANCIA) 
+>   - Esse método adiciona importância para a lista de importância.
 
+<br> <br>
 
-
+> ### Classe Cannabis
 >   - Deve-se também ter a capacidade de tirar toda a vida do ser vivo, quando a método contaminar() da interface for chamada.
 >
 >   - Método alimentar da interface deve aumentar a porcentagem de vida em 10% e o peso em 3kg caso não seja maléfico, se não, tire a 99% da porcentagem de vida do ser vivo e zere sua sanidade.
