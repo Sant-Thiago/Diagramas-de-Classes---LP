@@ -53,7 +53,7 @@
 <br> <br>
 
 > ### Classe Planta
-> # darFruto
+> ##### darFruto(Integer)
 >   - Método deve tirar fruto(s) da planta, o número de frutos deve ser uma número aleatório de 3 até o número indicado no parâmetro.
 >  
 >   - Enquanto o método tira fruto(s) da planta, também deve ser um número aleatório de 0 até o valor colocado no parâmetro.
