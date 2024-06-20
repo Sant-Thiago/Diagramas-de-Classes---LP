@@ -46,6 +46,9 @@
 > #### brilhar()
 >   - Método brilhar deve transformar a bioluminescencia em true e mostrar uma mensagem de "brilhando..".
 >
+> ##### atribuirImportancia(IMPORTANCIA) 
+>   - Esse método adiciona importância para a lista de importância.
+>
 > #### contaminar()
 >   - Deve-se também ter a capacidade de tirar toda a vida do ser vivo, quando a método contaminar() da interface for chamada.
 >
@@ -53,13 +56,10 @@
 >   - Método alimentar da interface deve aumentar a porcentagem de vida em 10% e o peso em 3kg caso não seja maléfico, se não, tire a 99% da porcentagem de vida do ser vivo e zere sua sanidade.
 >
 > #### curar()
->   - Método curar se não for maléfico aumenta a altura em 3cm, atribui à porcentagem de vida 99% e sanidade uma porcentagem aleatória, caso o fungo for maléfico, diminua o peso em um número aleatório, tira uma porcentagem aleatória da porcentagem da vida e atribui à sanidade 6.659%.
+>   - Método curar se não for maléfico aumenta a altura em 3cm, atribui à porcentagem de vida 99% e diminui a sanidade em uma porcentagem aleatória, caso o fungo for maléfico, diminua o peso em um número aleatório, tira uma porcentagem aleatória da porcentagem da vida e atribui à sanidade 6.659%.
 >
 > #### alucinar()
 >   - Alucinar deixa a sanidade do ser vivo em 2% a 10%, aumenta o peso em 3kg e muda o nome.
->
-> ##### atribuirImportancia(IMPORTANCIA) 
->   - Esse método adiciona importância para a lista de importância.
 >   ``` javascript
 >   while(metodoAleatorizar.exist) { showMessage("Chance de dar certo:: {100%}") }
 >   ```
@@ -79,14 +79,33 @@
 <br> <br>
 
 > ### Classe Cannabis
->   - Deve-se também ter a capacidade de tirar toda a vida do ser vivo, quando a método contaminar() da interface for chamada.
+> #### calcularDuracao()
+>   - Calcular duração deve multiplicar a quantidade de gramas por floração pela porcentagem de cannabidiol, divido por 30 esse valor é a duração em dias, no entanto, caso a porcentagem de tetrahydrocannabinol seja maior que o cannabidiol deve ser divido por 60 ao invés de 30.
 >
 >   - Método alimentar da interface deve aumentar a porcentagem de vida em 10% e o peso em 3kg caso não seja maléfico, se não, tire a 99% da porcentagem de vida do ser vivo e zere sua sanidade.
 >
 >   - Método curar se não for maléfico aumenta a altura em 3cm, atribui à porcentagem de vida 99% e sanidade uma porcentagem aleatória, caso o fungo for maléfico, diminua o peso em um número aleatório, tira uma porcentagem aleatória da porcentagem da vida e atribui à sanidade 6.659%.
 >
->   - Alucinar deixa a sanidade do ser vivo em 2% a 10%, aumenta o peso em 3kg e muda o nome.
+> #### contaminar()
+>   - Muda o estado mental do ser vivo, ou seja, tira um número aleatório de porcentagem da sanidade do serviço, caso o peso seja maior que 35, tira do peso 17 kg, caso contrário tire um número aleatório e diminua 8% da porcentagem de vida do ser vivo.
+>
+> #### alimentar()
+>   - Método alimentar deve aumentar a porcentagem de vida em 7% e o peso em 13kg, além de diminuir 23% da sanidade.
+>
+> #### curar()
+>   - Método curar aumenta a altura em 4cm, atribui à porcentagem de vida 99% e diminui a sanidade aleatóriamente.
+>
+> #### alucinar()
+>   - Alucinar deixa a sanidade do ser vivo em 2% a 4,20%, aumenta o peso em 17kg, aumenta a porcentagem da vida em 5% e muda o nome.
 
+
+>   ``` javascript
+>   obs() {
+       if (porcentagem.atual > 100) porcentagem.atual - porcentagem.restante;
+       else if (porcentagem.atual < 0) porcentagem.atual + porcentagem.restante; 
+}
+>   // porcentagem.restante é o valor que diminuiu mais do que zero ou que passou de 109
+>   ```
 
 mata = contaminar
 
